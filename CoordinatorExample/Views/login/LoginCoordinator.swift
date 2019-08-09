@@ -9,8 +9,6 @@
 import UIKit
 
 class LoginCoordinator:NSObject, Coordinator, UINavigationControllerDelegate {
-    typealias T = LoginViewController
-    
     var childCoordinators = [Coordinator]()
     var navigationController: UINavigationController
     
